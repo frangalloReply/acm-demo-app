@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: guestbook
-  namespace: guestbook
+  namespace: guestbook-fe
 spec:
   selector:
     matchLabels:
