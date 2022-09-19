@@ -2,7 +2,6 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: guestbook
-  namespace: guestbook-fe
 spec:
   host: guestbook.apps.aws-1.aws-poc-clusters.mcatest.org
   port:
